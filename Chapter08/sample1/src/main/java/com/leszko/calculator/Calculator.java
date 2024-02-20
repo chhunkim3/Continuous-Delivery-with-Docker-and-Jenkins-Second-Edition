@@ -3,6 +3,7 @@ package com.leszko.calculator;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
+/** Calculator for the Exercise 5.2 */
 @Service
 public class Calculator {
 
