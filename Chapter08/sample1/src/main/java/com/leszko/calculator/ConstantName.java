@@ -1,3 +1,5 @@
+package com.leszko.calculator;
+
 /** ConstantName class declaration */
 
 public class ConstantName {
