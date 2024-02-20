@@ -12,7 +12,7 @@ public class Calculator {
 	}
 }
 
-public class Example1 {
+public class ConstantName {
   public final static int FIRST_CONSTANT1 = 10;
   protected final static int SECOND_CONSTANT2 = 100;
   final static int third_Constant3 = 1000; // violation 'must match pattern'
