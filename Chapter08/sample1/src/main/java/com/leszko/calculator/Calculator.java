@@ -12,6 +12,8 @@ public class Calculator {
 	}
 }
 
+public class ConstantName;
+
 public class ConstantName {
   public final static int FIRST_CONSTANT1 = 10;
   protected final static int SECOND_CONSTANT2 = 100;
