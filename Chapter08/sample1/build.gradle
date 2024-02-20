@@ -1,4 +1,4 @@
-plugins {
+.plugins {
 	id 'org.springframework.boot' version '2.1.3.RELEASE'
 	id 'java'
 }
@@ -35,7 +35,7 @@ jacocoTestCoverageVerification {
 }
 
 checkstyle {
-    configDir = file("$rootProject.projectDir/etc/checkstyle")  
+    configDir = file("$rootProject.projectDir/etc/checkstyle.xml")  
 }
 
 task acceptanceTest(type: Test) {
