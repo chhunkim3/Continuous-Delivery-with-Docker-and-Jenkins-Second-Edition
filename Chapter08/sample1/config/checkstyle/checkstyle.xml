@@ -14,7 +14,7 @@
 <module name="Checker">
   <module name="TreeWalker">
      <module name="ConstantName">
-          <property name="scope" value="public"/>
+       <property name="format" value="^([A-Z][A-Z0-9]*(_[A-Z0-9]+)*|myMap|myLogger)$"/>
      </module>
   </module>
 </module>
