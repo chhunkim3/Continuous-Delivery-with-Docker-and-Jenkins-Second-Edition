@@ -1,6 +1,6 @@
 package com.leszko.calculator;
 
-import org.springframework;
+import org.springframework.*;
 
 /** ConstantName class declaration */
 
