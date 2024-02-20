@@ -35,7 +35,7 @@ jacocoTestCoverageVerification {
 }
 
 checkstyle {
-    configDir = file("$rootProject.projectDir/etc/checkstyle.xml")  
+    configDir = file("${project.rootDir}/config/checkstyle/checkstyle.xml")  
 }
 
 task acceptanceTest(type: Test) {
