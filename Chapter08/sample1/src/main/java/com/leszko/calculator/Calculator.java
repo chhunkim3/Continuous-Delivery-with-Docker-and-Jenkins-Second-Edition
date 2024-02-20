@@ -12,7 +12,7 @@ public class Calculator {
 	}
 }
 
-public class ConstantName;
+class ConstantName{};
 
 public class ConstantName {
   public final static int FIRST_CONSTANT1 = 10;
