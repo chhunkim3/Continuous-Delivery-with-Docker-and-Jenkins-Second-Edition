@@ -16,4 +16,7 @@
      <module name="ConstantName"/>
   </module>
 </module>
-        
+
+<module name="SuppressionFilter">
+   <property name="file" value="${config_loc}/checkstyle-suppressions.xml"/>
+</module>
