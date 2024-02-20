@@ -12,7 +12,13 @@ public class Calculator {
 	}
 }
 
-class ConstantName{};
+public class ConstantName
+{
+public static void main(String[] args)
+  {
+  System.exit(0);
+  }
+}
 
 public class ConstantName {
   public final static int FIRST_CONSTANT1 = 10;
