@@ -14,7 +14,7 @@ public class Calculator {
         @Cacheable("div")
         public int div(int a, int b) {
 		 if (b == 0) { 
-			throw new IllegalArgumentException("Denominator CANNOT be 0"); 
+			throw new ArithmeticException("Denominator CANNOT be 0"); 
 		}
                 else return a / b;
 		}
