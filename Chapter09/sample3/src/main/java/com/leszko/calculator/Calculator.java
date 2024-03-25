@@ -17,6 +17,5 @@ public class Calculator {
 			throw new java.lang.ArithmeticException("Denominator CANNOT be 0"); 
 		}
                 else return a / b;
-		}
 	}
 }
