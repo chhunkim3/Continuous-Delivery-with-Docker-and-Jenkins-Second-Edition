@@ -27,7 +27,7 @@ class CalculatorController {
         @RequestMapping("/div")
         String div(@RequestParam("a") Integer a,
                         @RequestParam("b") Integer b) {
-                String result = b!=0 ? String.valueOf(calculator.div(a, b)) : "Division by 0";
+                String result = b!=0 ? String.valueOf(calculator.div(a, b)) : "Failed due to Division by 0" return false;
                 calculationRepository.save(new Calculation(a.toString(), b.toString(), result, Timestamp.from(Instant.now())));
                 return result;
         }
