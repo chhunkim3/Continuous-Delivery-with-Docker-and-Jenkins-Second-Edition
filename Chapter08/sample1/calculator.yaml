@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: calculator
-        image: chhunkim3/docker-registry:1.0
+        image: chhunkim3/docker-registry:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
